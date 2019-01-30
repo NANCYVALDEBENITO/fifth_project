@@ -1,0 +1,12 @@
+<h1> Título </h1>	
+<%= @sales.each do |post| %>
+	<p> <%= post.cod %> </p>
+	<p> <%= post.detail %> </p>
+	<p> <%= post.category %> </p>
+	<p> <%= post.value %> </p>
+	<p> <%= post.discount %> </p>
+	<p> <%= post.tax %> </p>
+	<p> <%= post.total %> </p>
+<% end %>
+
+

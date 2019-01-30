@@ -1,0 +1,6 @@
+<%= @sales.each do |sale|%>
+	<%= sale.cod %>
+<% end%>
+
+<p>"El registro fue almacenado con éxito!"</p>
+<%= link_to 'Crear', sales_new_path %>
